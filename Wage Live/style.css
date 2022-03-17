@@ -1,0 +1,234 @@
+.navbar-logo{
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.usericon{
+    width: 20%;
+}
+.top-black{
+    background-color: #313638;
+    padding-top: 50px;
+}
+.top-black-left{
+   margin-top: 70px;
+}
+.job-title{
+    width: 60%;
+    background-color: #313638;
+    border: none ;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+
+}
+.job-icon{
+    width: 15px;
+}
+.top-hands{
+    float: right;
+    width: 60%;
+}
+
+.dropbtn {
+    background-color: #1072BA;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #1072BA;
+  }
+  
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+.apply-filter{
+    background-color: #1072BA;
+    border-bottom: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 600px;
+}
+.input-fields{
+    background-color: #1072BA;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.input-box-name{
+    color: #fff;
+}
+.input-box{
+    border-radius: 2px;
+    border: none;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.th{
+    padding-top: 40px !important;
+    border: 1px solid grey;  
+    
+}
+.salary-comparison{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card-cuatom{
+    border: 1px solid grey;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin: 30px;
+}
+.whitesection{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    background-color: fffy;
+
+}
+.greysection{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    background-color: rgb(233, 232, 232);
+}
+.job-card{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+.card-input{
+    background-color: transparent;
+    border: none !important;
+    width: 70%;
+}
+
+
+
+
+
+.salary-estimate{
+    background-color: #1072BA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.salary-estimate-leftside h4{
+ font-weight: bold;
+ color: #fff;
+}
+.salary-estimate-leftside p{
+    padding-top: 20px;
+    color: #fff;
+}
+.btn-salary-estimate{
+    color: #fff;
+    border-radius: 3px;
+    border: none !important;
+    padding: 10px 20px 10px 20px;
+    float: right;
+    margin-top: 40px;
+
+}
+
+
+
+
+
+.footer-upper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-logo{
+    width: 40%;
+}
+.footer-list{
+    padding-top: 20px;
+}
+.footer-list a{
+    list-style-type: none;
+    color: #000 !important ;
+    text-decoration: none !important;
+}
+.footer-lower{
+    border-top: 1px solid #d0d3d4;
+    padding: 20px;
+    text-align: center;
+    color: rgb(218, 218, 218);
+}
+
+
+
+.salary-boxes 
+{
+    position: relative;
+}
+.salary-boxes:before,
+.salary-boxes:after {
+  content:"";
+  background-color: rgb(238, 238, 238);
+  height: 69px; 
+  position: absolute;
+  width: 100%; 
+  z-index: -1;
+}
+.salary-boxes:before
+{
+    top:70px;
+}
+.salary-boxes:after
+{
+    top:210px;
+}
+.salary-boxes figure div
+{
+    padding: 15px;
+    min-height: 69px;
+    line-height: 2;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+}
+.search-custom{
+    color: #fff !important;
+}

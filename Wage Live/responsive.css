@@ -1,0 +1,62 @@
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .top-hands{
+        float: right;
+        width: 60%;
+        margin-top: 60px;
+    }
+    .apply-filter{
+        background-color: #1072BA;
+        border-bottom: 1px solid grey;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 330px;
+    }
+    .salary-boxes 
+{
+    position: relative;
+}
+.salary-boxes:before,
+.salary-boxes:after {
+  content:"";
+  background-color: rgb(238, 238, 238);
+  height: 69px; 
+  position: absolute;
+  width: 100%; 
+  z-index: -1;
+}
+.salary-boxes:before
+{
+    top:70px;
+}
+.salary-boxes:after
+{
+    top:210px;
+}
+.salary-boxes figure div
+{
+    padding: 0px;
+    min-height: 69px;
+    line-height: 1.8;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+}
+}
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    .apply-filter{
+        background-color: #1072BA;
+        border-bottom: 1px solid grey;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px !important;
+    }
+    .usericon{
+        width: 5%;
+    }
+}
+
